@@ -34,17 +34,16 @@ gem 'bootsnap', require: false
 # gem "sassc-rails"
 # gem "image_processing", "~> 1.2"
 
-gem 'rubocop'
-gem 'rubocop-performance'
-gem 'rubocop-rails'
-gem 'rubocop-require_tools', '~> 0.1.2'
-gem 'rubocop-rspec'
-
 group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'factory_bot_rails'
   gem 'rails-controller-testing'
   gem 'rspec-rails', '~> 6.0.0'
+  gem 'rubocop'
+  gem 'rubocop-performance'
+  gem 'rubocop-rails'
+  gem 'rubocop-require_tools', '~> 0.1.2'
+  gem 'rubocop-rspec'
 end
 
 group :development do
